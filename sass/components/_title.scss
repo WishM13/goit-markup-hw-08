@@ -1,0 +1,25 @@
+.title-work-team {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    color: $title-text-color;
+}
+  
+.title {
+  margin-bottom: 10px;
+     
+  color: $title-text-color;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+    
+  color: $white-color;
+}

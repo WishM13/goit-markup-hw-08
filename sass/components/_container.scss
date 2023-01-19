@@ -1,0 +1,27 @@
+// $breakpoint (
+//     phone: 480px,
+//     tablet: 768px,
+//     destop: 1200px,
+// )
+
+.container {
+    // MOBILE screen 480px & >
+    max-width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  
+    outline: red 1px solid;
+
+    // TABLET screen 768px & >
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+    }
+
+    // DESTOP
+    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
+    } 
+}
+  
