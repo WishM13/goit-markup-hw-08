@@ -1,9 +1,3 @@
-// $breakpoint (
-//     phone: 480px,
-//     tablet: 768px,
-//     destop: 1200px,
-// )
-
 .container {
     // MOBILE screen 480px & >
     max-width: 480px;
@@ -12,7 +6,7 @@
     padding-right: 15px;
     padding-left: 15px;
   
-    outline: red 1px solid;
+    // outline: red 1px solid;
 
     // TABLET screen 768px & >
     @media screen and (min-width: 768px) {

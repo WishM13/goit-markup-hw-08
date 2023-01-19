@@ -141,21 +141,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-tehno_354.jpg 354w,
-                      ./images/portfolio/project-tehno_370.jpg 370w,
-                      ./images/portfolio/project-tehno_450.jpg 450w3
-                      ./images/portfolio/project-tehno_708.jpg 708w,
-                      ./images/portfolio/project-tehno_740.jpg 740w,
-                      ./images/portfolio/project-tehno_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-tehno_370.jpg"
-                    alt="на Macbook pro відкрит браузер з анкетою трех людей"
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-tehno_370.webp 1x,
+                        ./images/portfolio/project-tehno_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-tehno_370.jpg 1x,
+                        ./images/portfolio/project-tehno_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-tehno_354.webp 1x,
+                        ./images/portfolio/project-tehno_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-tehno_354.jpg 1x,
+                        ./images/portfolio/project-tehno_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-tehno_450.webp 1x,
+                        ./images/portfolio/project-tehno_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-tehno_450.jpg 1x,
+                        ./images/portfolio/project-tehno_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-tehno_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -172,21 +214,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-basketboll_354.jpg 354w,
-                      ./images/portfolio/project-basketboll_370.jpg 370w,
-                      ./images/portfolio/project-basketboll_450.jpg 450w,
-                      ./images/portfolio/project-basketboll_708.jpg 708w,
-                      ./images/portfolio/project-basketboll_740.jpg 740w,
-                      ./images/portfolio/project-basketboll_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-basketboll_370.jpg"
-                    alt="Двоє баскетболістів з New Orlean vs Golden Star"
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-basketboll_370.webp 1x,
+                        ./images/portfolio/project-basketboll_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-basketboll_370.jpg 1x,
+                        ./images/portfolio/project-basketboll_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-basketboll_354.webp 1x,
+                        ./images/portfolio/project-basketboll_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-basketboll_354.jpg 1x,
+                        ./images/portfolio/project-basketboll_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-basketboll_450.webp 1x,
+                        ./images/portfolio/project-basketboll_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-basketboll_450.jpg 1x,
+                        ./images/portfolio/project-basketboll_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-basketboll_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -205,21 +289,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-seafood_354.jpg 354w,
-                      ./images/portfolio/project-seafood_370.jpg 370w,
-                      ./images/portfolio/project-seafood_450.jpg 450w,
-                      ./images/portfolio/project-seafood_708.jpg 708w,
-                      ./images/portfolio/project-seafood_740.jpg 740w,
-                      ./images/portfolio/project-seafood_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-seafood_370.jpg"
-                    alt="емблема ресторану Seafood"
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-seafood_370.webp 1x,
+                        ./images/portfolio/project-seafood_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-seafood_370.jpg 1x,
+                        ./images/portfolio/project-seafood_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-seafood_354.webp 1x,
+                        ./images/portfolio/project-seafood_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-seafood_354.jpg 1x,
+                        ./images/portfolio/project-seafood_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-seafood_450.webp 1x,
+                        ./images/portfolio/project-seafood_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-seafood_450.jpg 1x,
+                        ./images/portfolio/project-seafood_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-seafood_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -236,21 +362,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-prime_354.jpg 354w,
-                      ./images/portfolio/project-prime_370.jpg 370w,
-                      ./images/portfolio/project-prime_450.jpg 450w,
-                      ./images/portfolio/project-prime_708.jpg 708w,
-                      ./images/portfolio/project-prime_740.jpg 740w,
-                      ./images/portfolio/project-prime_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-prime_370.jpg"
-                    alt="великі навушники"
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-prime_370.webp 1x,
+                        ./images/portfolio/project-prime_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-prime_370.jpg 1x,
+                        ./images/portfolio/project-prime_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-prime_354.webp 1x,
+                        ./images/portfolio/project-prime_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-prime_354.jpg 1x,
+                        ./images/portfolio/project-prime_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-prime_450.webp 1x,
+                        ./images/portfolio/project-prime_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-prime_450.jpg 1x,
+                        ./images/portfolio/project-prime_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-prime_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -267,21 +435,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-boxes_354.jpg 354w,
-                      ./images/portfolio/project-boxes_370.jpg 370w,
-                      ./images/portfolio/project-boxes_450.jpg 450w,
-                      ./images/portfolio/project-boxes_708.jpg 708w,
-                      ./images/portfolio/project-boxes_740.jpg 740w,
-                      ./images/portfolio/project-boxes_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-boxes_370.jpg"
-                    alt="біла і коричнива коробка "
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-boxes_370.webp 1x,
+                        ./images/portfolio/project-boxes_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-boxes_370.jpg 1x,
+                        ./images/portfolio/project-boxes_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-boxes_354.webp 1x,
+                        ./images/portfolio/project-boxes_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-boxes_354.jpg 1x,
+                        ./images/portfolio/project-boxes_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-boxes_450.webp 1x,
+                        ./images/portfolio/project-boxes_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-boxes_450.jpg 1x,
+                        ./images/portfolio/project-boxes_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-boxes_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -298,21 +508,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-borders_354.jpg 354w,
-                      ./images/portfolio/project-borders_370.jpg 370w,
-                      ./images/portfolio/project-borders_450.jpg 450w,
-                      ./images/portfolio/project-borders_708.jpg 708w,
-                      ./images/portfolio/project-borders_740.jpg 740w,
-                      ./images/portfolio/project-borders_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-borders_370.jpg"
-                    alt="apple екран з картою планети"
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-borders_370.webp 1x,
+                        ./images/portfolio/project-borders_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-borders_370.jpg 1x,
+                        ./images/portfolio/project-borders_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-borders_354.webp 1x,
+                        ./images/portfolio/project-borders_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-borders_354.jpg 1x,
+                        ./images/portfolio/project-borders_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-borders_450.webp 1x,
+                        ./images/portfolio/project-borders_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-borders_450.jpg 1x,
+                        ./images/portfolio/project-borders_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-borders_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -331,23 +583,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-limited-edition_354.jpg 354w,
-                      ./images/portfolio/project-limited-edition_370.jpg 370w,
-                      ./images/portfolio/project-limited-edition_450.jpg 450w,
-                      ./images/portfolio/project-limited-edition_708.jpg 708w,
-                      ./images/portfolio/project-limited-edition_740.jpg 740w,
-                      ./images/portfolio/project-limited-edition_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-limited-edition_370.jpg"
-                    alt="розгорнута
-              книжка 1ст. дівчина сушить волося, 2ст. дві дівчини показують знак
-              'peace'"
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-limited-edition_370.webp 1x,
+                        ./images/portfolio/project-limited-edition_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-limited-edition_370.jpg 1x,
+                        ./images/portfolio/project-limited-edition_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-limited-edition_354.webp 1x,
+                        ./images/portfolio/project-limited-edition_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-limited-edition_354.jpg 1x,
+                        ./images/portfolio/project-limited-edition_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-limited-edition_450.webp 1x,
+                        ./images/portfolio/project-limited-edition_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-limited-edition_450.jpg 1x,
+                        ./images/portfolio/project-limited-edition_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-limited-edition_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -364,21 +656,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-lab_354.jpg 354w,
-                      ./images/portfolio/project-lab_370.jpg 370w,
-                      ./images/portfolio/project-lab_450.jpg 450w,
-                      ./images/portfolio/project-lab_708.jpg 708w,
-                      ./images/portfolio/project-lab_740.jpg 740w,
-                      ./images/portfolio/project-lab_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-lab_370.jpg"
-                    alt="бірка з написом LAB EL TAG PSD Mockup"
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-lab_370.webp 1x,
+                        ./images/portfolio/project-lab_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-lab_370.jpg 1x,
+                        ./images/portfolio/project-lab_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-lab_354.webp 1x,
+                        ./images/portfolio/project-lab_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-lab_354.jpg 1x,
+                        ./images/portfolio/project-lab_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-lab_450.webp 1x,
+                        ./images/portfolio/project-lab_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-lab_450.jpg 1x,
+                        ./images/portfolio/project-lab_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-lab_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -395,21 +729,63 @@
             <li class="project__item">
               <a class="project__link link" href="#">
                 <div class="project-description">
-                  <img
-                    class="project-description__img img"
-                    srcset="
-                      ./images/portfolio/project-business_354.jpg 354w,
-                      ./images/portfolio/project-business_370.jpg 370w,
-                      ./images/portfolio/project-business_450.jpg 450w,
-                      ./images/portfolio/project-business_708.jpg 708w,
-                      ./images/portfolio/project-business_740.jpg 740w,
-                      ./images/portfolio/project-business_900.jpg 900w
-                    "
-                    sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                    src="./images/portfolio/project-business_370.jpg"
-                    alt="чоловічі руки друкують на ноутбуці, відкрита сторінка GROWING BUSINESS"
-                    loading="lazy"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/project-business_370.webp 1x,
+                        ./images/portfolio/project-business_740.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-business_370.jpg 1x,
+                        ./images/portfolio/project-business_740.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-business_354.webp 1x,
+                        ./images/portfolio/project-business_708.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-business_354.jpg 1x,
+                        ./images/portfolio/project-business_708.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-business_450.webp 1x,
+                        ./images/portfolio/project-business_900.webp 2x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/project-business_450.jpg 1x,
+                        ./images/portfolio/project-business_900.jpg 2x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="project-description__img img"
+                      src="./images/portfolio/project-business_370.jpg"
+                      alt="лептоп на екрані якого картки працівників"
+                      loading="lazy"
+                    />
+                  </picture>
+
                   <p class="project-description__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу

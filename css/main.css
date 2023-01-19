@@ -68,7 +68,6 @@ picture {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  outline: red 1px solid;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -1440,7 +1439,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  .filter__item:not(:nth-child(2n+3)) {
+  .filter__item:not(:last-child) {
     margin-right: 8px;
   }
 }

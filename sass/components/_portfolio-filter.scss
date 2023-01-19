@@ -18,7 +18,7 @@
     }
 }
 
-.filter__item:not(:nth-child(2n+3)) {
+.filter__item:not(:last-child) {
     @media screen and (max-width: 767px) {
     margin-right: 8px;
     }
