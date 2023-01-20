@@ -9,7 +9,12 @@
     border: 1px solid $accent-color;
     color: $white-color;
     background-color: $accent-color;
-    box-shadow: $box-shadow-button;
+    
     
     cursor: pointer;
+
+    &:hover,
+    &:focus {
+        box-shadow: $box-shadow-button;
+    }
 }

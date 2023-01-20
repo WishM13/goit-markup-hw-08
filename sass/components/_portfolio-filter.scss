@@ -1,7 +1,8 @@
 .filter {
-    display: flex;
-    @media screen and (max-width: 767px) {
-        flex-wrap: wrap;    
+    display: flex;    
+    @media screen and (max-width: 767px) {        
+        flex-wrap: wrap;
+        gap: 8px 15px;   
         align-content: stretch;
         margin-bottom: 40px;
     }
@@ -9,18 +10,8 @@
         justify-content: center;        
         margin-bottom: 30px;
     }
-    // align-items: center;
-}
-
-.filter__item:nth-child(-n + 3){
-    @media screen and (max-width: 767px) {
-        margin-bottom: 15px;
-    }
-}
-
-.filter__item:not(:last-child) {
-    @media screen and (max-width: 767px) {
-    margin-right: 8px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
     }
 }
 
